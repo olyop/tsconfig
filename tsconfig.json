@@ -14,6 +14,7 @@
 		"noUnusedParameters": false,
 		"strictBindCallApply": true,
 		"strictFunctionTypes": true,
+		"useUnknownInCatchVariables": true,
 		"noFallthroughCasesInSwitch": true,
 		"strictPropertyInitialization": true,
 		"forceConsistentCasingInFileNames": true
