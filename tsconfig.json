@@ -14,7 +14,6 @@
 		"noUnusedParameters": false,
 		"strictBindCallApply": true,
 		"strictFunctionTypes": true,
-		"exactOptionalPropertyTypes": true,
 		"useUnknownInCatchVariables": true,
 		"noFallthroughCasesInSwitch": true,
 		"strictPropertyInitialization": true,
