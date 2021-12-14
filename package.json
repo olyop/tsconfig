@@ -17,6 +17,6 @@
 		"push": "git commit -a -m \"Update\" && git push -u origin main"
 	},
 	"devDependencies": {
-		"typescript": "4.4.2"
+		"typescript": "4.5.4"
 	}
 }
