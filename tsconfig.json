@@ -1,22 +1,27 @@
 {
 	"compilerOptions": {
 		"module": "ESNext",
-		"target": "ES2021",
-		"sourceMap": false,
+		"target": "ESNext",
+		"moduleResolution": "Node",
 		"alwaysStrict": true,
 		"noImplicitAny": true,
+		"noUnusedLocals": true,
 		"noImplicitThis": true,
 		"removeComments": true,
 		"esModuleInterop": true,
 		"strictNullChecks": true,
 		"noImplicitReturns": true,
-		"moduleResolution": "Node",
-		"noUnusedParameters": false,
+		"allowUnusedLabels": false,
+		"noUnusedParameters": true,
+		"noImplicitOverride": true,
 		"strictBindCallApply": true,
 		"strictFunctionTypes": true,
+		"allowUnreachableCode": false,
+		"noUncheckedIndexedAccess": true,
 		"useUnknownInCatchVariables": true,
 		"noFallthroughCasesInSwitch": true,
 		"strictPropertyInitialization": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		"noPropertyAccessFromIndexSignature": true
 	}
 }
