@@ -1,9 +1,7 @@
 {
 	"compilerOptions": {
-		"lib": ["ESNext"],
 		"module": "ESNext",
 		"target": "ESNext",
-		"moduleResolution": "Node",
 		"alwaysStrict": true,
 		"noImplicitAny": true,
 		"noUnusedLocals": true,
@@ -12,6 +10,7 @@
 		"esModuleInterop": true,
 		"strictNullChecks": true,
 		"noImplicitReturns": true,
+		"moduleResolution": "Node",
 		"allowUnusedLabels": false,
 		"noUnusedParameters": true,
 		"noImplicitOverride": true,
