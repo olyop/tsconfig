@@ -10,6 +10,7 @@
 		"esModuleInterop": true,
 		"strictNullChecks": true,
 		"noImplicitReturns": true,
+		"resolveJsonModule": true,
 		"moduleResolution": "Node",
 		"allowUnusedLabels": false,
 		"noUnusedParameters": true,
