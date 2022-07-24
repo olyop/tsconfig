@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.0.14",
+	"version": "1.0.15",
 	"name": "@oly_op/tsconfig",
 	"description": "@oly_op/tsconfig",
 	"author": {
@@ -11,6 +11,9 @@
 		"type": "git",
 		"url": "https://github.com/olyop/tsconfig.git"
 	},
+	"files": [
+		"tsconfig.json"
+	],
 	"scripts": {
 		"build": "json5 tsconfig.json5 -o tsconfig.json",
 		"prepublishOnly": "del-cli tsconfig.json && npm run build",
