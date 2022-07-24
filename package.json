@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.0.15",
+	"version": "1.0.22",
 	"name": "@oly_op/tsconfig",
 	"description": "@oly_op/tsconfig",
 	"author": {
@@ -15,8 +15,9 @@
 		"tsconfig.json"
 	],
 	"scripts": {
+		"increment-version": "npm version patch --no-git-tag-version",
 		"build": "json5 tsconfig.json5 -o tsconfig.json",
-		"prepublishOnly": "del-cli tsconfig.json && npm run build",
+		"prepublishOnly": "del-cli tsconfig.json && npm run build && npm run increment-version",
 		"postpublish": "npm run push",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git add -A && git commit -m \"Update\" && git push -u origin main"
@@ -30,6 +31,6 @@
 		"cspell": "6.4.1",
 		"del-cli": "5.0.0",
 		"json5": "2.2.1",
-		"typescript": "4.6.3"
+		"typescript": "4.7.4"
 	}
 }

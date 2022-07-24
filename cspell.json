@@ -4,12 +4,11 @@
 	"caseSensitive": false,
 	"allowCompoundWords": true,
 	"enableFiletypes": [
-		"*"
+		"json5"
 	],
 	"ignorePaths": [
-		"build",
-		"node_modules",
-		"cspell-dict.txt"
+		"tsconfig.json",
+		"node_modules"
 	],
 	"import": [
 		"@cspell/dict-npm/cspell-ext.json",
@@ -17,12 +16,5 @@
 		"@cspell/dict-filetypes/cspell-ext.json",
 		"@cspell/dict-typescript/cspell-ext.json",
 		"@cspell/dict-software-terms/cspell-ext.json"
-	],
-	"dictionaries": [
-		"custom-words"
-	],
-	"dictionaryDefinitions": [{
-		"name": "custom-words",
-		"path": "./cspell-dict.txt"
-	}]
+	]
 }

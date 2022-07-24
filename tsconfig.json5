@@ -27,7 +27,7 @@
 		"resolveJsonModule": true,
 
 		// Emit
-		"declaration": true,
+		"declaration": false,
 		"declarationMap": false,
 		"preserveConstEnums": true,
 		"removeComments": true,
@@ -46,5 +46,6 @@
 
 		// Language and Environment
 		"target": "ESNext",
+		"experimentalDecorators": false
 	}
 }
