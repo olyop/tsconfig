@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.0.13",
+	"version": "1.0.14",
 	"name": "@oly_op/tsconfig",
 	"description": "@oly_op/tsconfig",
 	"author": {
@@ -12,11 +12,21 @@
 		"url": "https://github.com/olyop/tsconfig.git"
 	},
 	"scripts": {
+		"build": "json5 tsconfig.json5 -o tsconfig.json",
+		"prepublishOnly": "del-cli tsconfig.json && npm run build",
 		"postpublish": "npm run push",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git add -A && git commit -m \"Update\" && git push -u origin main"
 	},
 	"devDependencies": {
+		"@cspell/dict-filetypes": "2.1.1",
+		"@cspell/dict-node": "3.0.1",
+		"@cspell/dict-npm": "3.1.0",
+		"@cspell/dict-software-terms": "2.2.0",
+		"@cspell/dict-typescript": "2.0.1",
+		"cspell": "6.4.1",
+		"del-cli": "5.0.0",
+		"json5": "2.2.1",
 		"typescript": "4.6.3"
 	}
 }

@@ -1,0 +1,50 @@
+{
+	"compilerOptions": {
+		// Type Checking
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"alwaysStrict": true,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": false, // checked by eslint(no-unused-vars)
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"useUnknownInCatchVariables": true,
+
+		// Modules
+		"allowUmdGlobalAccess": false,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+
+		// Emit
+		"declaration": true,
+		"declarationMap": false,
+		"preserveConstEnums": true,
+		"removeComments": true,
+		"sourceMap": false,
+		
+		// JavaScript Support
+		"allowJs": false,
+
+		// Editor support
+		"disableSizeLimit": true,
+
+		// Interop Constraints
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		// Language and Environment
+		"target": "ESNext",
+	}
+}
