@@ -1,11 +1,5 @@
 {
 	"files.exclude": {
 		"tsconfig.json": true
-	},
-	"json.schemas": [
-		{
-			"fileMatch": ["/tsconfig.json5"],
-			"url": "http://json.schemastore.org/tsconfig"
-		}
-	]
+	}
 }
