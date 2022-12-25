@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.0.24",
+	"version": "1.0.25",
 	"name": "@oly_op/tsconfig",
 	"description": "@oly_op/tsconfig",
 	"author": {
@@ -22,14 +22,16 @@
 		"push": "git add -A && git commit -m \"Update\" && git push -u origin main"
 	},
 	"devDependencies": {
-		"@cspell/dict-filetypes": "2.1.1",
-		"@cspell/dict-node": "3.0.1",
-		"@cspell/dict-npm": "3.1.0",
-		"@cspell/dict-software-terms": "2.2.0",
-		"@cspell/dict-typescript": "2.0.1",
-		"cspell": "6.4.1",
+		"@oly_op/cspell-dict": "1.0.115",
+		"@oly_op/prettier-config": "1.0.21",
+		"cspell": "6.18.0",
 		"del-cli": "5.0.0",
-		"json5": "2.2.1",
-		"typescript": "4.7.4"
+		"json5": "2.2.2",
+		"npm-check-updates": "16.6.2",
+		"prettier": "2.8.1"
+	},
+	"volta": {
+		"node": "19.3.0",
+		"npm": "9.2.0"
 	}
 }
