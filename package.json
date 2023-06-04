@@ -23,12 +23,12 @@
 	},
 	"devDependencies": {
 		"@oly_op/cspell-dict": "1.0.115",
-		"@oly_op/prettier-config": "1.0.21",
-		"cspell": "6.18.0",
+		"@oly_op/prettier-config": "1.1.0",
+		"cspell": "6.31.1",
 		"del-cli": "5.0.0",
-		"json5": "2.2.2",
-		"npm-check-updates": "16.6.2",
-		"prettier": "2.8.1"
+		"json5": "2.2.3",
+		"npm-check-updates": "16.10.12",
+		"prettier": "2.8.8"
 	},
 	"volta": {
 		"node": "19.3.0",
