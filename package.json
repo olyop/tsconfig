@@ -25,12 +25,10 @@
 		"typescript": "5.3.2"
 	},
 	"devDependencies": {
-		"@oly_op/cspell-dict": "1.1.2",
-		"@oly_op/prettier-config": "1.6.0",
-		"cspell": "8.0.0",
-		"rimraf": "5.0.5",
+		"@oly_op/cspell-dict": "1.1.5",
+		"@oly_op/prettier-config": "1.7.9",
 		"json5": "2.2.3",
-		"npm-check-updates": "16.14.11"
+		"rimraf": "5.0.5"
 	},
 	"volta": {
 		"node": "21.2.0",
