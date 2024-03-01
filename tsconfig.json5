@@ -14,7 +14,8 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": true,
-		"noUnusedParameters": false, // checked by eslint(no-unused-vars)
+		"noUnusedParameters": true,
+		"strict": true,
 		"strictBindCallApply": true,
 		"strictFunctionTypes": true,
 		"strictNullChecks": true,
@@ -22,7 +23,9 @@
 		"useUnknownInCatchVariables": true,
 
 		// Modules
-		"allowUmdGlobalAccess": false,
+		"allowArbitraryExtensions": true,
+		"allowImportingTsExtensions": false,
+		"allowUmdGlobalAccess": true,
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 		"resolveJsonModule": true,
@@ -30,9 +33,9 @@
 		// Emit
 		"declaration": false,
 		"declarationMap": false,
+		"noEmitOnError": true,
 		"preserveConstEnums": true,
 		"removeComments": true,
-		"sourceMap": false,
 
 		// JavaScript Support
 		"allowJs": false,
@@ -44,9 +47,11 @@
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		"preserveSymlinks": true,
 
 		// Language and Environment
-		"target": "ESNext",
 		"experimentalDecorators": false,
+		"target": "ESNext",
+		"useDefineForClassFields": true,
 	},
 }

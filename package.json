@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"name": "@oly_op/tsconfig",
 	"description": "@oly_op/tsconfig",
 	"author": {
@@ -16,17 +16,18 @@
 	],
 	"scripts": {
 		"clean": "rimraf tsconfig.json",
-		"build": "json5 tsconfig.json5 -o tsconfig.json",
-		"prepublishOnly": "npm run clean && npm run build",
-		"postpublish": "npm run push",
-		"push": "git add -A && git commit -m \"Update\" && git push -u origin main"
+		"build": "npm run clean && json5 tsconfig.json5 --out-file tsconfig.json --space t",
+		"increment-version": "npm version patch --no-git-tag-version",
+		"prepublishOnly": "npm run increment-version && npm run build",
+		"postpublish": "npm run sync",
+		"sync": "git add -A && git commit -m \"Update\" && git push"
 	},
 	"peerDependencies": {
 		"typescript": "5.3.2"
 	},
 	"devDependencies": {
-		"@oly_op/cspell-dict": "1.1.5",
-		"@oly_op/prettier-config": "1.7.9",
+		"@oly_op/cspell-dict": "1.1.8",
+		"@oly_op/prettier-config": "1.8.2",
 		"json5": "2.2.3",
 		"rimraf": "5.0.5"
 	},
