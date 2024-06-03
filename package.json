@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"name": "@oly_op/tsconfig",
 	"description": "@oly_op/tsconfig",
 	"author": {
@@ -23,13 +23,13 @@
 		"sync": "git add -A && git commit -m \"Update\" && git push"
 	},
 	"peerDependencies": {
-		"typescript": "5.3.2"
+		"typescript": "5.4.5"
 	},
 	"devDependencies": {
-		"@oly_op/cspell-dict": "1.1.8",
-		"@oly_op/prettier-config": "1.8.2",
+		"@oly_op/cspell-dict": "1.1.12",
+		"@oly_op/prettier-config": "1.9.5",
 		"json5": "2.2.3",
-		"rimraf": "5.0.5"
+		"rimraf": "5.0.7"
 	},
 	"volta": {
 		"node": "21.2.0",
